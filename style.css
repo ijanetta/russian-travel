@@ -27,6 +27,7 @@
 @media screen and (max-width: 350px) {
     .container {
         max-width: 350px;
+        align-items: center;
     }
 }
 
@@ -49,8 +50,8 @@
 
 @media screen and (max-width: 350px) {
     .header {
-        max-width: 350px;
-        margin: 16px 16px;
+        max-width: 300px;
+        margin: 16px auto;
         padding: 0;
     }
 }
@@ -143,7 +144,7 @@
 
 @media screen and (max-width: 350px) {
     .lead__title {
-        max-width: 350px;
+        max-width: 288px;
         font-size: 40px;
         line-height: 44px;
         margin: 48px 16px 16px;
@@ -181,7 +182,7 @@
 
 @media screen and (max-width: 350px) {
     .lead__subtitle {
-        max-width: 350px;
+        max-width: 288px;
         margin: 0 16px 40px;
         font-size: 16px;
         line-height: 20px;
@@ -218,7 +219,7 @@
 
 @media screen and (max-width: 350px) {
     .lead__caption {
-        max-width: 350px;
+        max-width: 320px;
         margin: 0 16px 64px;
         font-size: 10px;
     }
@@ -247,7 +248,7 @@
 
 @media screen and (max-width: 350px) {
     .lead__image {
-        max-width: 350px;
+        max-width: 100%;
         margin: 0;
     }
 }
@@ -265,7 +266,9 @@
 
 @media screen and (max-width: 350px) {
     .intro {
-        max-width: 350px;
+        max-width: 320px;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -277,7 +280,7 @@
 /*}*/
 
 .intro__title {
-    width: 690px;
+    max-width: 690px;
     height: 58px;
     margin-left: 148px;
     font-weight: 900;
@@ -295,20 +298,22 @@
 
 @media screen and (max-width: 800px) {
     .intro__title {
-        width: 720px;
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width: 350px) {
     .intro__title {
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        max-width: 288px;
+        margin: 0;
+        /*max-width: 288px;*/
     }
 }
 
 .intro__text {
-    width: 690px;
+    max-width: 690px;
     /*height: 208px;*/
     margin-left: 148px;
     font-weight: 400;
@@ -338,7 +343,7 @@
 
 @media screen and (max-width: 350px) {
     .intro__text {
-        max-width: 320px;
+        max-width: 288px;
         margin-left: 16px;
         line-height: 26px;
         font-size: 16px;
@@ -370,7 +375,7 @@
 
 @media screen and (max-width: 350px) {
     .intro__list {
-        max-width: 320px;
+        max-width: 288px;
         margin: 0 16px 40px;
     }
 }
@@ -434,7 +439,7 @@
 
 @media screen and (max-width: 350px) {
     .places {
-        max-width: 320px;
+        max-width: 100%;
     }
 }
 
@@ -457,7 +462,7 @@
 
 @media screen and (max-width: 350px) {
     .place {
-        max-width: 320px;
+        width: 100%;
     }
 }
 
@@ -489,7 +494,7 @@
 @media screen and (max-width: 350px) {
     .place__some-class {
         flex-direction: column;
-        max-width: 320px;
+        width: 100%;
         margin-bottom: 24px;
         align-items: normal;
     }
@@ -507,7 +512,8 @@
 @media screen and (max-width: 350px) {
     .place__another-class {
         flex-direction: column;
-        max-width: 320px;
+        width: 100%;
+        justify-content: center;
     }
 }
 
@@ -537,7 +543,7 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
-        max-width: 320px;
+        max-width: 288px;
         margin: 64px 16px 32px;
         padding: 0;
     }
@@ -562,7 +568,9 @@
 }
 
 @media screen and (max-width: 350px) {
-    .place__website {max-width: 320px;
+    .place__website {
+        max-width: 288px;
+        padding-left: 16px;
     }
 }
 
@@ -580,8 +588,6 @@
 .place__website__link {
     width: 288px;
     height: 22px;
-    /*margin-right: 16px;*/
-    /*margin-bottom: 32px;*/
     font-family: 'Inter', sans-serif, Arial;
     font-weight: 400;
     font-size: 18px;
@@ -624,9 +630,10 @@
 
 @media screen and (max-width: 350px) {
     .place__image {
-        max-width: 320px;
+        width: 100%;
         margin: 0;
         padding: 0;
+
     }
 }
 
@@ -660,7 +667,7 @@
 
 @media screen and (max-width: 350px) {
     .paragraph {
-        max-width: 320px;
+        width: 288px;
         font-size: 16px;
         line-height: 26px;
         margin: 0;
@@ -757,7 +764,8 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        max-width: 320px;
+        max-width: 288px;
+        margin: 0;
     }
 }
 
@@ -827,9 +835,16 @@
     margin-bottom: 24px;
 }
 
+
+@media screen and (max-width: 800px) {
+    .footer {
+        width: 768px;
+    }
+}
+
 @media screen and (max-width: 350px) {
     .footer {
-        max-width: 320px;
+        max-width: 186px;
     }
 }
 
@@ -875,9 +890,4 @@
     flex-direction: row-reverse;
 }
 
-@media screen and (max-width: 800px) {
-    .footer {
-        width: 768px;
-    }
-}
 
