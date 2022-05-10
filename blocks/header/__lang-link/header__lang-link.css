@@ -21,6 +21,7 @@
 
 .header__lang-link:first-child {
     margin: 0;
+    border-bottom: 1px solid white;
 }
 
 .header__lang-link:hover {

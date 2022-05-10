@@ -1,0 +1,18 @@
+.intro {
+    display: grid;
+    width: inherit;
+}
+
+@media screen and (max-width: 800px) {
+    .intro {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .intro {
+        max-width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,37 @@
+.intro__text {
+    max-width: 690px;
+    /*height: 208px;*/
+    margin-left: 148px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+@media screen and (max-width: 1030px) {
+    .intro__text {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .intro__text {
+
+        font-family: 'Inter', serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        color: #FFFFFF;
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .intro__text {
+        max-width: 288px;
+        margin-left: 16px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+}
