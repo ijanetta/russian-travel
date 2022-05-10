@@ -210,7 +210,7 @@
     }
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 800px) {
     .lead__caption {
         align-self: flex-start;
         margin-left: 24px;
@@ -307,7 +307,7 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        margin: 0;
+        margin: 0 16px 40px;
         /*max-width: 288px;*/
     }
 }
@@ -625,7 +625,7 @@
 @media screen and (max-width: 350px) {
     .place__image {
         width: 100%;
-        margin: 0;
+        margin: 0 0 32px;
         padding: 0;
 
     }
@@ -664,7 +664,7 @@
         width: 288px;
         font-size: 16px;
         line-height: 26px;
-        margin: 0;
+        margin: 0 16px;
     }
 }
 
