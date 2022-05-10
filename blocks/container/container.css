@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Inter', sans-serif, Arial;
+    max-width: 1280px;
+    background-color: #2A2C2F;
+}
+
+@media screen and (max-width: 1030px) {
+    .container {
+        max-width: 1030px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {}
+}
+
+@media screen and (max-width: 350px) {
+    .container {
+        max-width: 350px;
+        align-items: center;
+    }
+}
