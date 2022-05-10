@@ -446,7 +446,6 @@
 .place {
     display: flex;
     flex-direction: column;
-    width: 100%;
 
 }
 
@@ -465,12 +464,6 @@
         width: 100%;
     }
 }
-
-/*@media screen and (max-width: 350px) {*/
-/*    .place {*/
-/*        flex-direction: column;*/
-/*    }*/
-/*}*/
 
 .place__some-class {
     display: flex;
@@ -522,6 +515,7 @@
     font-weight: 900;
     font-size: 72px;
     color: #FFFFFF;
+    margin-top: 80px;
 }
 
 @media screen and (max-width: 1030px) {
@@ -685,7 +679,7 @@
     background-image: url("./img/sprint-3-images/cover-trains.jpg");
     background-size: contain;
 
-    margin: 0 48px 92px;
+    margin: 92px 48px 92px;
     text-decoration: none;
     position: relative;
     background-repeat: no-repeat;
