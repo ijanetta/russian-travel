@@ -8,6 +8,7 @@
     text-transform: uppercase;
     margin: 0 148px 92px;
     color: #FFFFFF;
+    align-self: start;
 }
 
 @media screen and (max-width: 1030px) {
