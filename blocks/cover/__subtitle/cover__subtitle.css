@@ -12,14 +12,21 @@
     position: relative;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1279px) {
     .cover__subtitle {
         margin: 32px 332px 195px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     .cover__subtitle {
+        margin: 32px 332px 195px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__subtitle {
+        margin: 0;
         margin: 32px 100px 115px;
         left: 115px;
     }

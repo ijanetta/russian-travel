@@ -6,31 +6,52 @@
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
-    margin-left: 320px;
-    margin-right: 320px;
-    margin-bottom: 64px;
+    margin: 0 auto 64px;
 }
 
 @media screen and (max-width: 1030px) {
     .lead__subtitle {
-        margin-bottom: 56px;
-        margin-left: 192px;
-        margin-right: 192px;
+        margin: 0 auto 56px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .lead__subtitle {
-        margin-bottom: 56px;
-        margin-left: 64px;
-        margin-right: 64px;
+        margin: 0 64px 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        margin: 0 64px 56px;
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 350px) {
     .lead__subtitle {
         max-width: 288px;
-        margin: 0 16px 40px;
+        margin: 0 auto 40px;
         font-size: 16px;
         line-height: 20px;
     }

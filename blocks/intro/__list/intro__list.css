@@ -1,29 +1,30 @@
 .intro__list {
+    margin: 0;
+    padding: 0;
     font-family: 'Inter', sans-serif, Arial;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-    margin: auto 148px 92px;
     list-style-type: none;
+    margin: 0 0 40px 148px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1023px) {
     .intro__list {
-        margin-left: 48px;
+        margin: 0 0 33px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     .intro__list {
-        width: 720px;
-        margin-bottom: 88px;
+        /*!*width: 720px;*!*/
+        margin: 0 24px 88px;
     }
 }
 
 @media screen and (max-width: 350px) {
     .intro__list {
-        max-width: 288px;
-        margin: 0 16px 40px;
+        margin: 0 0 64px 16px;
     }
 }

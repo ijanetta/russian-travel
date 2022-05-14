@@ -4,20 +4,30 @@
     margin-bottom: 48px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1279px) {
+    .place__info{
+        /*width: 100%;*/
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
     .place__info{
         width: 100%;
+        flex-direction: row;
+
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     .place__info {
-        width: 100%;
+        flex-direction: column;
         margin-bottom: 24px;
+        align-items: flex-start;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
     .place__info {
         flex-direction: column;
         width: 100%;

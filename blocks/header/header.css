@@ -1,23 +1,29 @@
 .header {
+    width: calc(100% - 96px);
     display: flex;
     justify-content: space-between;
-    padding: 28px 24px 0px 48px;
+    margin: 28px 48px 56px;
     align-items: center;
-    margin-bottom: 48px;
     text-align: end;
+}
+
+@media screen and (max-width: 1030px) {
+    .header {
+        padding: 0;
+        margin: 28px 48px 48px;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .header {
-        width: 90%;
-        margin: 0 auto 48px;
+        width: calc(100% - 48px);
+        margin: 28px 24px 48px;
     }
 }
 
 @media screen and (max-width: 350px) {
     .header {
-        max-width: 300px;
-        margin: 16px auto;
-        padding: 0;
+        width: calc(100% - 32px);
+        margin: 16px 16px 48px;
     }
 }

@@ -5,20 +5,29 @@
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1279px) {
     .place__website {
         padding-left: 32px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
     .place__website {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        max-width: 288px;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 350px) {
     .place__website {
-        max-width: 288px;
-        padding-left: 16px;
+
+        padding: 0;
+        margin-left: 16px;
     }
 }

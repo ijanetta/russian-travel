@@ -1,5 +1,4 @@
 .lead__caption {
-    width: 160px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-size: 10px;
@@ -27,7 +26,6 @@
 
 @media screen and (max-width: 350px) {
     .lead__caption {
-        max-width: 320px;
         margin: 0 16px 64px;
         font-size: 10px;
     }

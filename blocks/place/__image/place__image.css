@@ -1,26 +1,38 @@
 .place__image {
     display: block;
-    width: 460px;
-    height: 460px;
+    max-width: 460px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1279px) {
     .place__image {
-        width: 440px;
-        height: 440px;
+        max-width: 440px;
         margin-left: 48px;
     }
 }
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
     .place__image {
-        width: 340px;
-        height: 340px;
+        max-width: 340px;
         margin-left: 24px;
+
+        /*width: 440px;*/
+        /*height: 440px;*/
+        /*margin-left: 48px;*/
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 767px) {
+    .place__image {
+        width: 100%;
+        margin: 0 0 32px;
+        padding: 0;
+
+        /*width: 340px;*/
+        /*height: 340px;*/
+        /*margin-left: 24px;*/
+    }
+}
+
+@media screen and (max-width: 320px) {
     .place__image {
         width: 100%;
         margin: 0 0 32px;

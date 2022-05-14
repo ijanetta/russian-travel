@@ -1,37 +1,28 @@
 .intro__text {
     max-width: 690px;
-    /*height: 208px;*/
-    margin-left: 148px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    margin-bottom: 33px;
+    margin: 0 0 40px 148px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1023px) {
     .intro__text {
-        margin-left: 48px;
+        max-width: 640px ;
+        margin: 0 0 33px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     .intro__text {
-
-        font-family: 'Inter', serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
-        color: #FFFFFF;
-        width: 720px;
+        margin-left: 24px;
     }
 }
 
 @media screen and (max-width: 350px) {
     .intro__text {
         max-width: 288px;
-        margin-left: 16px;
-        line-height: 26px;
-        font-size: 16px;
+        margin: 0 0 34px 16px;
     }
 }

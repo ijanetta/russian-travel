@@ -1,18 +1,32 @@
 .intro {
-    display: grid;
-    width: inherit;
+    width: 100%;
+    /*max-width: 640px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0 0 92px;
+    /*width: inherit;*/
+}
+
+@media screen and (max-width: 1030px) {
+    .intro {
+        max-width: 720px;
+        margin: 0 0 92px;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .intro {
-        width: 768px;
+        width: 100%;
+        margin: 0 0 48px;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
     .intro {
-        max-width: 320px;
-        margin: 0;
+        width: 100%;
+        /*margin: 0 16px 64px;*/
         padding: 0;
+        margin: 0;
     }
 }

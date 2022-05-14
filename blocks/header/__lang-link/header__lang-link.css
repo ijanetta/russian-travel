@@ -13,6 +13,12 @@
 
 }
 
+@media screen and (max-width: 800px) {
+    .header__lang-link {
+        font-size: 24px;
+    }
+}
+
 @media screen and (max-width: 350px) {
     .header__lang-link {
         font-size: 18px;
