@@ -27,17 +27,19 @@
 
 @media screen and (max-width: 767px) {
     .cover__title {
-        margin: 33px 16px 16px;
-        line-height: 76px;
+        margin: 49px 16px 16px;
         font-size: 32px;
         line-height: 35px;
+        min-height: 70px;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
     .cover__title {
+        min-height: 70px;
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
+        margin: 49px 16px 16px;
     }
 }
