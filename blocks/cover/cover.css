@@ -10,7 +10,13 @@
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1030px) {
+
+@media screen and (max-width: 1279px) {
+    .cover {
+    }
+}
+
+@media screen and (max-width: 1024px) {
     .cover {
         max-width: 1030px;
         min-height: 640px;
@@ -18,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     .cover {
         width: 768px;
         min-height: 480px;

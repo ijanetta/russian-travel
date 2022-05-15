@@ -8,21 +8,29 @@
     color: #FFFFFF;
     font-size: 72px;
     line-height: 76px;
-    margin: 245px 312px 0;
+    margin: 245px auto 0;
     z-index: 1;
     position: relative;
 }
 
+@media screen and (max-width: 1279px) {
+    .cover__title {
+        margin: 195px 232px 32px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .cover__title {
-        margin: 150px 232px 0;
+        margin: 115px 104px 32px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover__title {
-        margin: 115px 100px 0;
+        margin: 33px 16px 16px;
         line-height: 76px;
+        font-size: 32px;
+        line-height: 35px;
     }
 }
 
@@ -31,6 +39,5 @@
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
-        margin: 32px 16px 0;
     }
 }
