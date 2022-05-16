@@ -18,6 +18,7 @@
         width: 100%;
         object-fit: contain;
         margin: 92px 0 92px;
+        min-height: 640px;
     }
 }
 
@@ -25,7 +26,7 @@
     .cover {
         object-fit: contain;
         width: 100%;
-        min-height: 640px;
+        min-height: 480px;
         margin: 92px 0 92px;
     }
 }
@@ -34,6 +35,7 @@
     .cover {
         width: 100%;
         object-fit: contain;
+        min-height: 200px;
     }
 }
 
