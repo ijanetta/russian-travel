@@ -13,7 +13,7 @@
     position: relative;
 }
 
-.cover__title{
+.cover__title:hover{
     z-index: 2;
     position: relative;
 
