@@ -1,4 +1,4 @@
-@import url("/vendor/fonts/fonts.css");
+@import "../vendor/fonts/fonts.css";
 @import "../style.css";
 @import "../blocks/container/container.css";
 
