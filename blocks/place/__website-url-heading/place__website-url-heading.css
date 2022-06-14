@@ -1,11 +1,11 @@
 .place__website-url-heading {
     width: 288px;
-    height: 12px;
+    /*height: 12px;*/
     font-family: 'Inter', 'Arial', sans-serif;
     font-size: 12px;
     line-height: 20px;
     color: #AAAAAA;
-    margin-bottom: 12px;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
