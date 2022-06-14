@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.places:not(:last-child) {
+    margin-bottom: 80px;
+}
+
 @media screen and (max-width: 800px) {
     .places {
         max-width: 768px;
