@@ -8,9 +8,9 @@
     background-color: #2A2C2F;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
     .container {
-        max-width: 1030px;
+        max-width: 1024px;
     }
 }
 

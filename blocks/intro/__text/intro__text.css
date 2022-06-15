@@ -1,4 +1,5 @@
 .intro__text {
+    display: flex;
     max-width: 690px;
     font-weight: 400;
     font-size: 16px;
@@ -7,9 +8,10 @@
     margin: 0 0 33px 148px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .intro__text {
-        max-width: 640px;
+        justify-content: left;
+        max-width: 690px;
         margin: 0 0 33px;
     }
 }

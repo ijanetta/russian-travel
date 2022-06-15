@@ -8,10 +8,10 @@
     /*width: inherit;*/
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
     .intro {
-        max-width: 720px;
-        margin: 0 0 92px;
+        max-width: 967px;
+        margin: 0 0 92px 48px;
     }
 }
 

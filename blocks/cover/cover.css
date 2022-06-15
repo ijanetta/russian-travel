@@ -32,7 +32,8 @@
         object-fit: contain;
         width: 100%;
         min-height: 480px;
-        margin: 92px 0 92px;
+        margin: 12px 0 92px;
+        z-index: 1;
     }
 }
 

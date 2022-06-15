@@ -1,4 +1,13 @@
 .cover__overlay {
     z-index: 2;
     position: relative;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        object-fit: contain;
+        max-width: 1024px;
+        min-height: 480px;
+    }
 }
