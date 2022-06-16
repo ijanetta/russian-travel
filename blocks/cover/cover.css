@@ -1,67 +1,14 @@
 .cover {
-    max-width: 1184px;
     min-height: 740px;
-    display: flex;
-    background-image: url("../../img/sprint-3-images/cover-trains.jpg");
-    background-size: contain;
-    object-fit: contain;
-    margin: 12px 48px 92px;
     text-decoration: none;
-    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../img/sprint-3-images/cover-trains.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-}
-
-.cover:hover {
-    opacity: 0.8;
-    z-index: 0;
-    position: relative;
-}
-
-@media screen and (max-width: 1279px) {
-    .cover {
-        width: 100%;
-        object-fit: contain;
-        margin: 92px 0 92px;
-        min-height: 640px;
-        z-index: 1;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .cover {
-        object-fit: contain;
-        width: 100%;
-        min-height: 480px;
-        margin: 12px 0 92px;
-        z-index: 1;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .cover {
-        width: 100%;
-        object-fit: contain;
-        min-height: 200px;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .cover {
-        width: 100%;
-        object-fit: contain;
-        box-sizing: border-box;
-    }
-}
-
-.cover:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.3;
-    background-color: #2A2C2F;
-    object-fit: contain;
-    z-index: 1;
+    background-position: center center;
 }

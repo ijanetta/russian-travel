@@ -2,13 +2,19 @@
     width: calc(100% - 256px);
     margin: 0 148px 8px;
     max-width: 984px;
-    min-height: 615px;
 }
 
 @media screen and (max-width: 1030px) {
     .lead__image {
         width: 90%;
         margin: 0 48px 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 100%;
+        margin: 0 0 8px;
     }
 }
 

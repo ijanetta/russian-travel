@@ -20,3 +20,10 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .place__website-link {
+        line-height: 22px;
+        font-size: 18px;
+    }
+}

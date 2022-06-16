@@ -6,11 +6,8 @@
     font-family: 'Inter', serif;
 }
 
-@media screen and (max-width: 1030px) {
-    .intro__title {
-        font-size: 32px;
-        line-height: 35px;
-        width: auto;
-        margin: 0 0 48px;
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
     }
 }

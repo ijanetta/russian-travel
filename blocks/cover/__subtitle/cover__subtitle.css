@@ -1,49 +1,8 @@
 .cover__subtitle {
-    max-width: 360px;
-    min-height: 66px;
-    font-family: 'Inter', serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    margin: 16px 0 0;
     text-align: center;
+    max-width: 360px;
     color: #FFFFFF;
-    margin: 32px 412px 245px;
-    z-index: 1;
-    position: relative;
-}
-
-@media screen and (max-width: 1279px) {
-    .cover__subtitle {
-        margin: 32px 332px 195px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        margin: 32px 204px 115px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .cover__subtitle {
-        /*margin: 0;*/
-        max-width: 288px;
-        margin: 0 16px 33px;
-        font-size: 14px;
-        line-height: 16px;
-        left: 0;
-        min-height: 40px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover__subtitle {
-        max-width: 320px;
-        font-size: 14px;
-        line-height: 16px;
-        left: 0;
-        bottom: 60px;
-        margin: 62px 16px 33px;
-        min-height: 40px;
-    }
 }

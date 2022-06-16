@@ -1,13 +1,7 @@
 .cover__overlay {
-    z-index: 2;
-    position: relative;
+    font-family: 'Inter', Arial, sans-serif;
+    box-sizing: border-box;
     width: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__overlay {
-        object-fit: contain;
-        max-width: 1024px;
-        min-height: 480px;
-    }
+    /*padding: 0 48px;*/
+    margin: 0 auto;
 }
