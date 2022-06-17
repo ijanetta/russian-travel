@@ -33,3 +33,10 @@
         padding: 0;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .cover__overlay {
+        width: 320px;
+        padding: 0;
+    }
+}
