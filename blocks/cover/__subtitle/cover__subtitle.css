@@ -6,3 +6,12 @@
     max-width: 360px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 568px) {
+    .cover__subtitle {
+        font-size:14px;
+        line-height: 16px;
+        margin: 8px 0 0;
+        max-width: 288px;
+    }
+}
