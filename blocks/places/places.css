@@ -28,4 +28,7 @@
     .places {
         max-width: 100%;
     }
+    .places:not(:last-child) {
+        margin-bottom: 0;
+    }
 }
