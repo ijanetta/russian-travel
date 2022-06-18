@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__lang-link_active {
     display: flex;
     flex-direction: row-reverse;
     padding: 0;
@@ -9,15 +9,16 @@
     line-height: 28px;
     font-weight: 400;
     width: 30px;
+    border-bottom: 1px solid white;
 }
 
 @media screen and (max-width: 320px) {
-    .header__lang-link {
+    .header__lang-link_active {
         font-size: 18px;
     }
 }
 
-.header__lang-link:hover {
+.header__lang-link_active:hover {
     text-decoration: underline;
     text-shadow: 1px 0 0 #000;
 }

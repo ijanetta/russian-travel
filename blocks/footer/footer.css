@@ -28,7 +28,6 @@
     .footer {
         align-items: flex-start;
         width: 90%;
-        flex-direction: column;
         margin-left: 16px;
         margin-top: 64px;
     }
