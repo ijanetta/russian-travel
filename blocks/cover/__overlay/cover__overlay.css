@@ -8,35 +8,6 @@
 
 @media screen and (max-width: 1140px) {
     .cover__overlay {
-        padding: 0;
         margin-bottom: 0;
     }
 }
-
-/*@media screen and (max-width: 1023px) {*/
-/*    .cover__overlay {*/
-/*        width: 900px;*/
-/*        padding: 0;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 1018px) {*/
-/*    .cover__overlay {*/
-/*        width: 768px;*/
-/*        padding: 0;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 920px) {*/
-/*    .cover__overlay {*/
-/*        width: 768px;*/
-/*        padding: 0;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 350px) {*/
-/*    .cover__overlay {*/
-/*        width: 320px;*/
-/*        padding: 0;*/
-/*    }*/
-/*}*/

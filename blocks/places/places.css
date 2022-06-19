@@ -2,25 +2,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -12px;
 }
 
 .places:not(:last-child) {
     margin-bottom: 80px;
 }
 
-@media screen and (max-width: 768px) {
-    .places {
-        margin-top: 0;
-    }
-    .places:not(:last-child) {
-        margin-bottom: 60px;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .places {
         max-width: 768px;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .places:not(:last-child) {
+        margin-bottom: 60px;
     }
 }
 

@@ -17,14 +17,6 @@
 
 @media screen and (max-width: 768px) {
     .intro__list {
-        /*!*width: 720px;*!*/
-        margin: 0 24px 88px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .intro__list {
-        /*!*width: 720px;*!*/
         margin: 0 24px 88px;
     }
 }

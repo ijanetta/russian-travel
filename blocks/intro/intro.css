@@ -1,24 +1,15 @@
 .intro {
-    width: 100%;
-    /*max-width: 640px;*/
+    max-width: 960px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     padding: 0 0 92px;
-    /*width: inherit;*/
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        max-width: 967px;
+        width: 80%;
         padding: 0 0 92px 48px;
-    }
-}
-
-@media screen and (max-width: 1020px) {
-    .intro {
-        max-width: 867px;
-        margin: 0 0 92px 0;
     }
 }
 
@@ -28,12 +19,5 @@
         margin-left: 0;
         margin-bottom: 0;
         padding: 0;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .intro {
-        width: 100%;
-        margin: 0 0 0;
     }
 }

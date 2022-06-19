@@ -9,12 +9,6 @@
     font-family: Inter, sans-serif, Arial;
 }
 
-@media screen and (max-width: 800px) {
-    .lead__title {
-        margin: 0 24px 32px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .lead__title {
         max-width: 288px;

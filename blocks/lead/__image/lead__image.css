@@ -1,13 +1,13 @@
 .lead__image {
-    width: calc(100% - 256px);
-    margin: 0 148px 8px;
     max-width: 984px;
+    margin: 0 auto 8px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1030px) {
     .lead__image {
-        width: 90%;
-        margin: 0 48px 8px;
+        max-width: 100%;
+        margin: 0;
     }
 }
 
@@ -15,19 +15,5 @@
     .lead__image {
         width: 100%;
         margin: 0 0 8px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .lead__image {
-        max-width: 320px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__image {
-        width: 100%;
-        margin: 0 0 8px;
-        box-sizing: border-box;
     }
 }
