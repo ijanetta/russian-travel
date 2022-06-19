@@ -40,3 +40,7 @@
 .place__paragraph:not(:last-child) {
     margin-bottom: 26px;
 }
+
+.place__paragraph:last-child {
+    margin-bottom: 0;
+}
