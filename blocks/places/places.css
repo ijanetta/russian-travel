@@ -12,8 +12,6 @@
     .places {
         max-width: 768px;
         margin-top: 0;
-        justify-content: center;
-        align-items: center;
     }
     .places:not(:last-child) {
         margin-bottom: 60px;
