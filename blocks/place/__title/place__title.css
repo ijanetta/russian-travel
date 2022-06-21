@@ -28,10 +28,11 @@
     .place__title {
         line-height: 46px;
         max-width: 330px;
+        margin-top: 0;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 370px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;

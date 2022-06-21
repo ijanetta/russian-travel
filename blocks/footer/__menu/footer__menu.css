@@ -5,6 +5,12 @@
     list-style: none;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 900px) {
+    .footer__menu {
+        /*flex-direction: row;*/
+        /*margin-bottom: 24px;*/
+    }
+}
 
 @media screen and (max-width: 767px) {
     .footer__menu {
@@ -12,3 +18,4 @@
         margin-bottom: 48px;
     }
 }
+
