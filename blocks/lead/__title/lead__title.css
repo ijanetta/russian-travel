@@ -9,6 +9,15 @@
     font-family: Inter, sans-serif, Arial;
 }
 
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        /*max-width: 288px;*/
+        /*font-size: 40px;*/
+        /*line-height: 1.1;*/
+        /*margin: 0 0 16px;*/
+    }
+}
+
 @media screen and (max-width: 767px) {
     .lead__title {
         max-width: 288px;

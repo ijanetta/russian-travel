@@ -23,7 +23,9 @@
 
 @media screen and (max-width: 320px) {
     .header {
-        width: calc(100% - 32px);
-        margin: 16px 16px 48px;
+
+        max-width: 285px;
+        /*width: calc(100% - 32px);*/
+        margin: 0 16px 48px;
     }
 }
