@@ -17,3 +17,9 @@
         max-width: 768px;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .lead {
+        max-width: 320px;
+    }
+}
